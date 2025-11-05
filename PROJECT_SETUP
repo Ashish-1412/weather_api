@@ -4,7 +4,11 @@ Backend
 
 2.python -m uvicorn main:app --reload
 Libraries
--->
+-->pip install fastapi uvicorn
+-->pip install starlette
+-->pip install requests
+-->pip install python-dotenv
+
 Frontend
 
 1.cd frontend
@@ -12,5 +16,13 @@ Frontend
 2.npm start
 
 libraries
--->
+-->npm install react react-dom
+-->npm install react-scripts
+-->npm install tailwindcss postcss autoprefixer @tailwindcss/postcss
+-->npx tailwindcss init -p
+-->npm install react-leaflet leaflet
+-->npm install react-icons lottie-react
+-->npm install dayjs
+-->npm install axios
+
 API_KEY = "661c4647a6b7e8d78154954b07cba61f"
