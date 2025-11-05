@@ -1,0 +1,16 @@
+Backend
+
+1.cd backend
+
+2.python -m uvicorn main:app --reload
+Libraries
+-->
+Frontend
+
+1.cd frontend
+
+2.npm start
+
+libraries
+-->
+API_KEY = "661c4647a6b7e8d78154954b07cba61f"
