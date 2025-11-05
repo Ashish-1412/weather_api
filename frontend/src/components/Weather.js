@@ -97,8 +97,8 @@ const Weather = () => {
     return "clear";
   };
 
-  // Play ambient sound for 15 seconds
-useEffect(() => {
+  // Play ambient sound
+  useEffect(() => {
   if (weather && soundEnabled) {
     const key = getWeatherKey(weather.condition);
     const sound = weatherSounds[key];
@@ -110,10 +110,10 @@ useEffect(() => {
     audioRef.current.volume = 0.4;
     audioRef.current.play().catch(() => {});
 
-    // Stop sound after 20 seconds
+    // Stop sound after 15 seconds
     const timer = setTimeout(() => {
       if (audioRef.current) audioRef.current.pause();
-    }, 20000);
+    }, 15000);
 
     // Cleanup on unmount or change
     return () => {
@@ -124,7 +124,6 @@ useEffect(() => {
     audioRef.current.pause();
   }
 }, [weather, soundEnabled]);
-
 
   // Background phase based on time
   useEffect(() => {
