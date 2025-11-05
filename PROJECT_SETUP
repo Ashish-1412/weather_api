@@ -1,28 +1,28 @@
-Backend
+ #Backend
+#1.venv/Scripts/activate
+#2.cd backend
 
-1.cd backend
+#3.python -m uvicorn main:app --reload
+#Libraries
+#-->pip install fastapi uvicorn
+#-->pip install starlette
+#-->pip install requests
+#-->pip install python-dotenv
 
-2.python -m uvicorn main:app --reload
-Libraries
--->pip install fastapi uvicorn
--->pip install starlette
--->pip install requests
--->pip install python-dotenv
+#Frontend
 
-Frontend
+#1.cd frontend
 
-1.cd frontend
+#2.npm start
 
-2.npm start
+#libraries
+#-->npm install react react-dom
+#-->npm install react-scripts
+#-->npm install tailwindcss postcss autoprefixer @tailwindcss/postcss
+#-->npx tailwindcss init -p
+#->npm install react-leaflet leaflet
+#-->npm install react-icons lottie-react
+#-->npm install dayjs
+#-->npm install axios
 
-libraries
--->npm install react react-dom
--->npm install react-scripts
--->npm install tailwindcss postcss autoprefixer @tailwindcss/postcss
--->npx tailwindcss init -p
--->npm install react-leaflet leaflet
--->npm install react-icons lottie-react
--->npm install dayjs
--->npm install axios
-
-API_KEY = "661c4647a6b7e8d78154954b07cba61f"
+#API_KEY = "661c4647a6b7e8d78154954b07cba61f"
